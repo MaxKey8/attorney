@@ -1,0 +1,1677 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/normalizez.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: Display;
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: Display-ExtraBold;
+  src: url(../fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Display-Italic;
+  src: url(../fonts/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+/* line 26, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.main-section {
+  max-width: 100%;
+  min-height: 800px;
+}
+
+/* line 29, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.main-section__nav-menu {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #353e47;
+}
+
+/* line 36, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 39, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 250px;
+  padding: 20px;
+  color: #cdba6d;
+  font-size: 15px;
+  font-family: OpenSans-Regular;
+}
+
+/* line 45, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: #cdba6d;
+}
+
+/* line 48, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 51, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.first-section {
+  max-height: 700px;
+  background-image: url(../image/Component3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 57, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.main-photo {
+  position: relative;
+  bottom: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 63, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.main-photo img {
+  max-height: 600px;
+}
+
+/* line 66, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.title-text {
+  position: relative;
+  color: #cdba6d;
+  font-size: 60px;
+  top: 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 65px;
+  font-family: Display-ExtraBold;
+}
+
+/* line 76, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.title-text-two {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: 270px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  font-family: OpenSans-Light;
+}
+
+/* line 87, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.second-section {
+  min-height: 700px;
+}
+
+/* line 90, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.second-section__card-box {
+  min-width: 100%;
+}
+
+/* line 93, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.box-size {
+  height: 290px;
+  width: 100%;
+  background: #353e47;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+/* line 100, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-item__img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 109, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-item__text-title {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  line-height: 25px;
+  font-family: Display-ExtraBold;
+}
+
+/* line 117, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-item__text-title2 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  line-height: 25px;
+  font-family: OpenSans-Regular;
+}
+
+/* line 127, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-item__text2 {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  line-height: 25px;
+  font-family: OpenSans-Regular;
+}
+
+/* line 134, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.title__hr {
+  width: 100px;
+  border: 1px solid;
+  color: #cdba6d;
+}
+
+/* line 139, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.title__hr-title {
+  width: 100px;
+  border: 1px solid;
+  color: #cdba6d;
+}
+
+/* line 144, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.second-section__card-box {
+  display: inline-flex;
+}
+
+/* line 147, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-color-3 {
+  background: #323a43;
+}
+
+/* line 149, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-color-4 {
+  background: #2e353d;
+}
+
+/* line 152, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.third-section {
+  max-width: 100%;
+  height: 500px;
+  background-image: url(../image/main-photo3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 159, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.title-about-me {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #cdba6d;
+  font-family: Display;
+}
+
+/* line 168, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.title__hr1 {
+  position: relative;
+  width: 100px;
+  border: 1px solid;
+  color: #cdba6d;
+  right: 30px;
+}
+
+/* line 175, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.about-me {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  color: #5c6f87;
+  font-family: Display;
+}
+
+/* line 185, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.fourth-section {
+  height: 700px;
+  background-color: #323a43;
+  margin-bottom: 50px;
+}
+
+/* line 191, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.specialization {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: #cdba6d;
+  font-family: Display-ExtraBold;
+}
+
+/* line 200, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.title__hr-specialization {
+  position: relative;
+  width: 100px;
+  border: 1px solid;
+  color: #cdba6d;
+  top: 70px;
+  margin-bottom: 120px;
+}
+
+/* line 207, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.fourth__card-box {
+  display: inline-flex;
+}
+
+/* line 211, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-color-5 {
+  background: #323a43;
+}
+
+/* line 213, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-color-6 {
+  background: #323a43;
+}
+
+/* line 215, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.card-color-7 {
+  background: #323a43;
+}
+
+/* line 218, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.fifth-section {
+  min-height: 600px;
+  background-image: url(../image/background3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+/* line 226, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.advantages {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: #cdba6d;
+  margin-bottom: 70px;
+  font-family: Display;
+}
+
+/* line 234, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.box-size2 {
+  position: relative;
+  height: 290px;
+  width: 100%;
+  margin-right: 30px;
+  background: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 242, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.box-size2:last-child {
+  margin-right: 0;
+}
+
+/* line 245, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.fifth__card-box {
+  display: inline-flex;
+}
+
+/* line 248, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.footer {
+  height: 400px;
+  background-color: #353e47;
+}
+
+/* line 251, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.footer__list {
+  color: #cdba6d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+  font-size: 18px;
+  background-color: #353e47;
+  font-family: OpenSans-Regular;
+}
+
+/* line 261, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.list-item {
+  margin-top: 30px;
+}
+
+/* line 264, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+.footer-text {
+  position: relative;
+  align-items: center;
+  display: inline;
+  bottom: 1px;
+  left: 40px;
+  font-size: 18px;
+  font-family: OpenSans-Light;
+  color: white;
+  line-height: 30px;
+}
+
+/* верстка*/
+@media (max-width: 1500px) {
+  /* line 278, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section {
+    width: 100%;
+  }
+  /* line 280, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section__nav-menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #353e47;
+  }
+  /* line 287, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 290, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item {
+    margin-right: 170px;
+    padding: 20px;
+    color: #cdba6d;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+  }
+  /* line 296, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item a {
+    text-decoration: none;
+    color: #cdba6d;
+  }
+  /* line 299, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item:last-child {
+    margin-right: 0px;
+  }
+  /* line 302, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo {
+    position: relative;
+    bottom: 160px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 308, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo img {
+    max-height: 600px;
+  }
+  /* line 311, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text {
+    position: relative;
+    color: #cdba6d;
+    font-size: 60px;
+    top: 250px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: center;
+    line-height: 65px;
+  }
+  /* line 322, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text-two {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  /* line 329, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-about-me {
+    left: 0px;
+    margin-bottom: 50px;
+  }
+  /* line 332, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr-title {
+    width: 489px;
+  }
+  /* line 334, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .about-me {
+    max-width: 800px;
+    left: 100px;
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* line 346, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section {
+    width: 100%;
+  }
+  /* line 348, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section__nav-menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #353e47;
+  }
+  /* line 355, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu__list {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 358, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 170px;
+    padding: 20px;
+    color: #cdba6d;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+  }
+  /* line 364, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu__list-item a {
+    text-decoration: none;
+    color: #cdba6d;
+  }
+  /* line 367, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu__list-item:last-child {
+    margin-right: 0px;
+  }
+  /* line 370, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu .main-photo {
+    position: relative;
+    bottom: 160px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 376, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu .main-photo img {
+    max-height: 600px;
+  }
+  /* line 379, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu .title-text {
+    position: relative;
+    color: #cdba6d;
+    font-size: 60px;
+    top: 250px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: center;
+    line-height: 65px;
+  }
+  /* line 390, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu .title-text-two {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  /* line 397, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu .title-about-me {
+    left: 0px;
+    margin-bottom: 50px;
+  }
+  /* line 400, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu .title__hr-title {
+    width: 489px;
+  }
+  /* line 402, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .nav-menu .about-me {
+    max-width: 800px;
+    left: 100px;
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 100px;
+  }
+}
+
+/* первая версия*/
+@media (max-width: 1199px) {
+  /* line 416, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section {
+    width: 100%;
+  }
+  /* line 418, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section__nav-menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #353e47;
+  }
+  /* line 425, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 428, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item {
+    margin-right: 120px;
+    padding: 20px;
+    color: #cdba6d;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+  }
+  /* line 434, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item a {
+    text-decoration: none;
+    color: #cdba6d;
+  }
+  /* line 437, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item:last-child {
+    margin-right: 0px;
+  }
+  /* line 440, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo {
+    bottom: 160px;
+  }
+  /* line 443, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section img {
+    max-height: 550px;
+  }
+  /* line 446, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text {
+    font-size: 40px;
+    justify-content: flex-start;
+    padding-left: 100px;
+    top: 100px;
+  }
+  /* line 452, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text-two {
+    justify-content: flex-start;
+    padding-left: 50px;
+    font-size: 18px;
+    top: 100px;
+  }
+  /* line 458, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-about-me {
+    padding-left: 0px;
+    left: 0px;
+  }
+  /* line 461, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .third-section {
+    background-image: none;
+  }
+  /* line 465, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .about-me {
+    text-align: center;
+    padding-left: 0px;
+    margin-right: 200px;
+  }
+  /* line 469, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr-specialization {
+    margin-bottom: 50px;
+  }
+}
+
+/* вторая версия*/
+@media (max-width: 991px) {
+  /* line 475, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section {
+    width: 100%;
+  }
+  /* line 477, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section__nav-menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #353e47;
+  }
+  /* line 484, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 487, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item {
+    margin-right: 50px;
+    padding: 20px;
+    color: #cdba6d;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+  }
+  /* line 493, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item a {
+    text-decoration: none;
+    color: #cdba6d;
+  }
+  /* line 496, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item:last-child {
+    margin-right: 0px;
+  }
+  /* line 499, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo {
+    height: 550px;
+    bottom: 160px;
+  }
+  /* line 503, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo img {
+    max-height: 600px;
+  }
+  /* line 506, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text {
+    font-size: 40px;
+    justify-content: flex-start;
+    padding-left: 9px;
+    top: 0px;
+  }
+  /* line 512, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text-two {
+    position: relative;
+    max-width: 400px;
+    font-size: 18px;
+    top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding-left: 40px;
+    line-height: 25px;
+  }
+  /* line 523, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-about-me {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    left: 0px;
+  }
+  /* line 529, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr1 {
+    position: relative;
+    width: 100px;
+    border: 1px solid;
+    color: #cdba6d;
+    right: 30px;
+  }
+  /* line 536, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .about-me {
+    max-width: 752px;
+    margin-left: 0px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* line 544, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .third-section {
+    background-image: none;
+  }
+  /* line 547, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .advantages {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #cdba6d;
+    margin-bottom: 50px;
+  }
+  /* line 555, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .specialization {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  /* line 561, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr-specialization {
+    position: relative;
+    width: 100px;
+    border: 1px solid;
+    color: #cdba6d;
+    top: 70px;
+    margin-bottom: 40px;
+  }
+  /* line 569, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text-title {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 25px;
+  }
+  /* line 577, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text-title2 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 25px;
+  }
+  /* line 585, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text2 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 593, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section {
+    width: 100%;
+  }
+  /* line 595, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section__nav-menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #353e47;
+  }
+  /* line 602, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 605, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item {
+    margin-right: -11px;
+    padding: 7px;
+    color: #cdba6d;
+    font-size: 15px;
+    font-family: OpenSans-Regular;
+  }
+  /* line 611, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item a {
+    text-decoration: none;
+    color: #cdba6d;
+  }
+  /* line 614, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item:last-child {
+    margin-right: 0px;
+  }
+  /* line 617, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo {
+    bottom: -10px;
+  }
+  /* line 619, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo img {
+    height: 500px;
+  }
+  /* line 622, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text {
+    font-size: 25px;
+    line-height: 30px;
+    left: 0px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  /* line 631, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text-two {
+    position: relative;
+    max-width: 485px;
+    top: 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  /* line 642, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text-title {
+    font-size: 17px;
+  }
+  /* line 646, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text2 {
+    font-size: 16px;
+  }
+  /* line 650, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-about-me {
+    left: 0px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 656, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .third-section {
+    background-image: none;
+  }
+  /* line 659, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .about-me {
+    max-width: 500px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    left: 30px;
+  }
+  /* line 666, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .advantages {
+    font-size: 25px;
+    margin-bottom: 20px;
+    top: 10px;
+  }
+  /* line 672, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .fifth__card-box {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  /* line 676, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text-title2 {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+  }
+  /* line 682, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__img {
+    padding-top: 15px;
+    height: 40px;
+    width: 40px;
+  }
+  /* line 688, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .box-size2 {
+    height: 100px;
+    margin-bottom: 0;
+  }
+  /* line 693, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr-specialization {
+    top: 40px;
+    margin-bottom: 70px;
+  }
+  /* line 698, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .box-size2 {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    margin-right: 0px;
+    background: none;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  /* line 706, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .box-size2:last-child {
+    margin-right: 0;
+  }
+  /* line 708, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .footer {
+    height: 300px;
+    background-color: #353e47;
+  }
+  /* line 711, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .footer__list {
+    color: #cdba6d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
+    align-items: center;
+    font-size: 13px;
+    background-color: #353e47;
+    font-family: OpenSans-Regular;
+  }
+  /* line 721, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .list-item {
+    margin-top: 30px;
+  }
+  /* line 723, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .footer-text {
+    position: relative;
+    align-items: center;
+    display: inline;
+    bottom: 1px;
+    left: 1px;
+    font-size: 11px;
+    font-family: OpenSans-Light;
+    color: white;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 735, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section {
+    width: 100%;
+  }
+  /* line 737, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-section__nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 35%;
+    background: #353e47;
+    z-index: 30;
+    transition: 0.6s all;
+  }
+  /* line 746, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    font-family: OpenSans-Regular;
+  }
+  /* line 752, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .nav-menu__list-item {
+    font-size: 11px;
+    margin-right: 0px;
+  }
+  /* line 755, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .hamburger {
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 40;
+  }
+  /* line 762, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: #cdba6d;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 769, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 772, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 774, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 776, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 778, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 780, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-section__nav-menu_active {
+    right: 0px;
+  }
+  /* line 783, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo {
+    position: relative;
+    bottom: -82px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 789, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .main-photo img {
+    max-height: 410px;
+  }
+  /* line 792, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text {
+    position: relative;
+    color: #cdba6d;
+    font-size: 20px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    font-family: Display-ExtraBold;
+  }
+  /* line 802, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-text-two {
+    position: relative;
+    color: white;
+    font-size: 13px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 17px;
+    font-family: OpenSans-Light;
+    left: -11px;
+  }
+  /* line 814, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .second-section {
+    min-height: 700px;
+  }
+  /* line 817, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .second-section__card-box {
+    min-width: 100%;
+  }
+  /* line 820, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .box-size {
+    height: 290px;
+    width: 100%;
+    background: #353e47;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+  /* line 827, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 30px;
+    width: 40px;
+  }
+  /* line 836, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text-title {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 15px;
+    font-family: Display-ExtraBold;
+  }
+  /* line 844, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text-title2 {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 7px;
+    line-height: 15px;
+    font-family: OpenSans-Regular;
+  }
+  /* line 855, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-item__text2 {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 10px;
+    line-height: 20px;
+    font-family: OpenSans-Regular;
+  }
+  /* line 862, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr {
+    width: 100px;
+    border: 1px solid;
+    color: #cdba6d;
+  }
+  /* line 867, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr-title {
+    width: 100px;
+    border: 1px solid;
+    color: #cdba6d;
+  }
+  /* line 872, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .second-section__card-box {
+    display: inline-flex;
+  }
+  /* line 875, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-color-3 {
+    background: #323a43;
+  }
+  /* line 877, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .card-color-4 {
+    background: #2e353d;
+  }
+  /* line 880, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .third-section {
+    max-width: 100%;
+    height: 320px;
+    background-image: none;
+  }
+  /* line 885, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title-about-me {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #cdba6d;
+    font-family: Display;
+  }
+  /* line 893, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .about-me {
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5c6f87;
+    left: 0px;
+    font-family: Display;
+  }
+  /* line 904, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .fourth-section {
+    height: 510px;
+    background-color: #323a43;
+    margin-bottom: 15px;
+  }
+  /* line 910, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .specialization {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #cdba6d;
+    font-family: Display-ExtraBold;
+  }
+  /* line 918, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .title__hr-specialization {
+    position: relative;
+    width: 100px;
+    border: 1px solid;
+    color: #cdba6d;
+    top: 30px;
+    margin-bottom: 50px;
+  }
+  /* line 925, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .fourth__card-box {
+    display: inline-flex;
+  }
+  /* line 928, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .fifth-section {
+    min-height: 600px;
+    background-image: url(../image/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+  /* line 936, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .advantages {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #cdba6d;
+    margin-bottom: 30px;
+    font-family: Display;
+  }
+  /* line 944, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .box-size2 {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin-right: 0px;
+    background: none;
+    padding: 7px;
+    margin-bottom: 10px;
+  }
+  /* line 952, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .box-size2:last-child {
+    margin-right: 0;
+  }
+  /* line 955, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .footer {
+    height: 300px;
+    background-color: #353e47;
+  }
+  /* line 958, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .footer__list {
+    color: #cdba6d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    font-size: 12px;
+    background-color: #353e47;
+    font-family: OpenSans-Regular;
+  }
+  /* line 968, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .list-item {
+    margin-top: 30px;
+  }
+  /* line 971, ../../../../../Users/maxk/Desktop/web1/Project-SAAS/src/sass/style.sass */
+  .main-section .footer-text {
+    position: relative;
+    align-items: center;
+    display: inline;
+    bottom: -36px;
+    left: 1px;
+    font-size: 9px;
+    font-family: OpenSans-Light;
+    color: white;
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
